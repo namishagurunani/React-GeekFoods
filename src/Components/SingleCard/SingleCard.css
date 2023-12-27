@@ -1,0 +1,27 @@
+.single_card{
+    width:30%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height:290px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px black;
+    padding-bottom: 9px;
+ }
+ .name_rating{
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     gap:10px;
+     padding-left: 20px;
+ }
+ .singlecard_footer{
+     display:flex;
+     flex-direction: column;
+     background-color: #F3F4F6;
+     padding-bottom: 5px;
+     padding-left: 20px;
+ }
+ .adress{
+    padding-left: 20px;
+ }
+ 
