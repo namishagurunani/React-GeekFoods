@@ -8,9 +8,9 @@ const SingleCard=(props)=>{
         <p>{props[" rating"]}</p>
         </div>
         <h3  className='adress'>{props[" address"]}</h3>
-        <h5  className='adress'>{props[" outcode"]} {props[" postcode"]}</h5>
+        <h5  className='adress1'>{props[" outcode"]} {props[" postcode"]}</h5>
         <div className="singlecard_footer">
-        <h4>{props[" type_of_food"]}</h4>
+        <h4 style={{color:"#22C55E" , fontWeight:"400", fontSize:"1.2rem"}}>{props[" type_of_food"]}</h4>
         <a href='#'>Visit Menu</a>
         </div>
        
