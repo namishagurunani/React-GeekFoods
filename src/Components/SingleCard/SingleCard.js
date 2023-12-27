@@ -13,8 +13,6 @@ const SingleCard=(props)=>{
         <h4 style={{color:"#22C55E" , fontWeight:"400", fontSize:"1.2rem"}}>{props[" type_of_food"]}</h4>
         <a href='#'>Visit Menu</a>
         </div>
-       
-        
         </div>
     )
 }
